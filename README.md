@@ -16,3 +16,8 @@ Tools needed to publish a website with gitub pages are:
 Helpful links:
 - [Github](https://github.com/)
 - [Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## Recommended Resources
+- A great place to learn any computer language is [w3schools](https://www.w3schools.com/).
+- A place to find multiple ways of completing the same task is [stackOverflow](https://stackoverflow.com/).
+- Taking a course that focusing mainly on web development from [codecademy](https://www.codecademy.com/learn/paths/web-development) is another great option.
