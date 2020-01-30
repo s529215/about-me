@@ -24,5 +24,6 @@ Helpful links:
 
 ## Contributors 
 Austin Barnhart -Computer Science 
+
 ![Orange](https://preview.redd.it/yilk3p8exdc41.jpg?width=640&crop=smart&auto=webp&s=81b69e4175b92c55dfa7aac4915dee65099ddbc6)
 -[Reddit](https://www.reddit.com/r/cursedmemes/)
