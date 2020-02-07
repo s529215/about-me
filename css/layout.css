@@ -11,10 +11,10 @@ header {
 .button{
     color: black;
 }
-.header {
+#header {
     text-align: center;
 }
-#list {
+.list {
     display: inline-block;
     font-size: large;
     margin: 1em;
