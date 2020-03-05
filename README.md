@@ -22,6 +22,9 @@ Helpful links:
 - A place to find multiple ways of completing the same task is [stackOverflow](https://stackoverflow.com/).
 - Taking a course that focusing mainly on web development from [codecademy](https://www.codecademy.com/learn/paths/web-development) is another great option.
 
+## Resources for App
+- add event listener source [w3schools](https://www.w3schools.com/jsref/met_element_addeventlistener.asp).
+
 ## Contributors 
 Austin Barnhart -Computer Science 
 
