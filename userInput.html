@@ -26,15 +26,16 @@
             <br>
             <label id="feet"></label>
             <br>
-            <input type="submit" value="Convert" onclick="convert()">
+            <input type="submit" value="Convert" onclick="convert()"> <button id="clear" onclick="empty()">Clear Storage</button>
+            <br>
+            You have clicked this <span id="num">0</span> times.
             <hr>
-            <button id="message">Try it</button>
-            <p id="wisdom">
+            <button id="wisdom">Wisdom</button>
+            <p id="message"></p>
             <script>
-            document.getElementById("message").addEventListener("click", message);
-
-            function message(){
-                document.getElementById("wisdom").innerHTML = "This assignment is hard.";}
+            document.getElementById("wisdom").addEventListener("click", message);
+            function message() {
+                document.getElementById("message").innerHTML = "This assignment is hard.";}
             </script>
         </main>
         <hr>
