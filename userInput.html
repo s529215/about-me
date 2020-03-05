@@ -5,6 +5,7 @@
         <title>Project 2 Interactive App</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/layout.css">
+        <script src="javascript/convert.js"></script>
     </head>
     <body>
         <nav>
@@ -21,10 +22,20 @@
         </header>
         <main>
             <h2>Convert miles to feet</h2>
-            <input type="number" placeholder="mi">
+            <input type="number" placeholder="mi" id="miles"> 
+            <br>
             <label id="feet"></label>
-            <input type="button" value="Convert" onclick="convert()">
-            
+            <br>
+            <input type="submit" value="Convert" onclick="convert()">
+            <hr>
+            <button id="message">Try it</button>
+            <p id="wisdom">
+            <script>
+            document.getElementById("message").addEventListener("click", message);
+
+            function message(){
+                document.getElementById("wisdom").innerHTML = "This assignment is hard.";}
+            </script>
         </main>
         <hr>
         <footer>
