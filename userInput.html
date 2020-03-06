@@ -5,6 +5,7 @@
         <title>Project 2 Interactive App</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
         <script src="javascript/convert.js"></script>
     </head>
     <body>
@@ -37,19 +38,15 @@
             function message() {
                 document.getElementById("message").innerHTML = "This assignment is hard.";}
             </script>
+            <!--
+            <div id="qunit"></div>
+            <div id="qunit-fixture"></div>
+            <script src="https://code.jquery.com/qunit/qunit-2.9.2.js"></script>
+            <script src="test/convert.test.js"></script>-->
         </main>
         <hr>
         <footer>
             <p>&copy; 2020 Austin Barnhart, all rights reserved</p>
         </footer>
-        <!-- qunit code -->
-  <script defer src="https://code.jquery.com/qunit/qunit-2.9.2.js"></script>
-
-  <!-- include source code to be tested -->
-  <script defer src="javascript/convert.js"></script>
-
-  <!-- include test code -->
-  <script defer src="test/convert.test.js"></script>
-  
     </body>
 </html>
