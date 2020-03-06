@@ -3,7 +3,7 @@ function convertTest(miles){
 }
 
 QUnit.test("convert 1mi to feet", function(assert){
-    var result = convertTest(1);
+    const result = convertTest(1);
     assert.equal(result, "5280", "Testing base case");
 })
 
